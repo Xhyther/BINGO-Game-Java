@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PlayerVsPlayer">
+  <grid id="27dc6" binding="Option" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="0" bottom="25" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14745537"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <hspacer id="6b6fe">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="5083d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="18"/>
+          <foreground color="-1"/>
+          <text value="Choose an Option:"/>
+        </properties>
+      </component>
+      <component id="3cbbc" class="javax.swing.JButton" binding="rollCallANumberButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11140905"/>
+          <font name="JetBrains Mono" size="16"/>
+          <foreground color="-1"/>
+          <text value="Roll / Call a Number"/>
+        </properties>
+      </component>
+      <component id="af188" class="javax.swing.JButton" binding="markANumberButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11140905"/>
+          <font name="JetBrains Mono" size="16"/>
+          <foreground color="-1"/>
+          <text value="Mark a Number"/>
+        </properties>
+      </component>
+      <component id="3ecfe" class="javax.swing.JButton" binding="bingoButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16217600"/>
+          <font name="JetBrains Mono" size="14"/>
+          <foreground color="-1"/>
+          <text value="Bingo!"/>
+        </properties>
+      </component>
+      <component id="ea619" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6285312"/>
+          <font name="JetBrains Mono" size="16"/>
+          <foreground color="-1"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <vspacer id="656a7">
+        <constraints>
+          <grid row="1" column="2" row-span="7" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="5" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="509d0">
+        <constraints>
+          <grid row="1" column="0" row-span="7" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="5" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="3586c">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="15"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="45767">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="8d594" class="javax.swing.JButton" binding="skitp">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2634240"/>
+          <font name="JetBrains Mono" size="16"/>
+          <foreground color="-1"/>
+          <text value="Skip Turn"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
